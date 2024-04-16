@@ -5,8 +5,11 @@ public class Ex04 {
         int inputNum = 19;
         //25도 해보셈
         int bin[] = new int[100];
+        //bin은 2진수 값들이 저장될 array
+
         //19를 계속 2로 나누삼
         int i = 0;
+        //bin배열의 index i
         int mok = inputNum;
 
         while (mok > 0){
